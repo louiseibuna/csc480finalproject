@@ -63,7 +63,10 @@ def main(username):
 
     model = load_model('95_percent.h5')
 
-    print(predict(model, tokenizer, tweet))
+    if(len(tweet) < 1):
+        print(-1)
+    else:
+        print(predict(model, tokenizer, tweet))
     sys.stdout.flush()
 
 
