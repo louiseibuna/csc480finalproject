@@ -66,7 +66,7 @@ def main(username):
     if(len(tweet) < 1):
         print(-1)
     else:
-        print(predict(model, tokenizer, tweet))
+        print("result: " + str(predict(model, tokenizer, tweet)))
     sys.stdout.flush()
 
 
