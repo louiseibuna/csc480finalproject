@@ -1,0 +1,26 @@
+{
+  "name": "chs",
+  "version": "1.0.0",
+  "description": "Test",
+  "main": "main.js",
+  "dependencies": {
+    "async": "^2.0.0-rc.6",
+    "body-parser": "^1.15.2",
+    "cloudinary": "^1.13.2",
+    "cookie-parser": "^1.4.3",
+    "cors": "^2.8.5",
+    "dotenv": "^7.0.0",
+    "express": "^4.17.1",
+    "express-fileupload": "^1.1.3-alpha.1",
+    "express-form-data": "^2.0.8",
+    "express-multipart-file-parser": "^0.1.2",
+    "multer": "^1.4.1",
+    "mysql": "^2.11.1",
+    "python-shell": "^1.0.7"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "node main.js",
+    "start": "node main.js"
+  }
+}
