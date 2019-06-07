@@ -9,6 +9,7 @@ Authors: Rafi Cohn-Gruenwald, Louise Ibuna, Ally Quan
     npm install python-shell 
 ```
 2. Have 2 terminal open 
+
 First terminal
 ```
 cd my-app/api 
