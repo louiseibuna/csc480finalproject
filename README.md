@@ -8,7 +8,7 @@ Authors: Rafi Cohn-Gruenwald, Louise Ibuna, Ally Quan
 ``` npm install 
     npm install python-shell 
 ```
-2. Have 2 terminal open 
+2. Have 2 terminals open 
 
 First terminal
 ```
