@@ -75,6 +75,7 @@ class App extends Component {
               />
               <FormControl.Feedback />
           </FormGroup>
+
           <Button variant="primary"
             onClick={()=> this.getResult()}>Start Prediction</Button>
 
@@ -109,6 +110,8 @@ function showResult(props) {
     return <NonDepressedResult/>;
   } else if (props.prediction === 1) {
     return <DepressedResult/>;
+  } else {
+    return <NotEnoughTweets/>;
   }
 }
 
