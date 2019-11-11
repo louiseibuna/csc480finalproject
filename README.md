@@ -5,8 +5,9 @@ Authors: Rafi Cohn-Gruenwald, Louise Ibuna, Ally Quan
 
 # To run the web app:
 1. 
-``` npm install 
-    npm install python-shell 
+``` 
+npm install 
+npm install python-shell 
 ```
 2. Have 2 terminals open 
 
