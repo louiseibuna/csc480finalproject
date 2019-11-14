@@ -6,20 +6,22 @@ Authors: Rafi Cohn-Gruenwald, Louise Ibuna, Ally Quan
 # To run the web app:
 1. 
 ``` 
-npm install 
 npm install python-shell 
 ```
 2. Have 2 terminals open 
 
 First terminal
 ```
-cd my-app/api 
+cd my-app/client
+npm install
+npm install python-shell 
 npm start 
 ```
 
 Second terminal
 ```
-cd my-app/src 
+cd my-app/server
+npm install
 npm start 
 ```
 It will prompt you to run the app on another port, just enter "y"
