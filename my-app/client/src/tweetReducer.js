@@ -1,5 +1,5 @@
 
-export default function TweetReducer(state = {
+function TweetReducer (state = {
     username: null,
     tweet: null,
     result: null
@@ -18,3 +18,5 @@ export default function TweetReducer(state = {
             return state;
     }
 }
+
+export default TweetReducer;
